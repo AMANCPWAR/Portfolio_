@@ -50,7 +50,17 @@
                         <li><a href="#" data-nav-section="skills">Skills</a></li>
                         <li><a href="#" data-nav-section="experience">Work Experience</a></li>
                         <li><a href="#" data-nav-section="contact">Contact</a></li>
-                        <a href="https://amancpwar.github.io/Portfolio_/images/cv.jpeg" download>Download CV</a>
+                        <a href="https://amancpwar.github.io/Portfolio_/images/cv.jpeg" onclick="downloadCV()">Download CV</a>
+                        <script>
+                          function downloadCV() {
+                            const link = document.createElement('a');
+                            link.href = 'https://amancpwar.github.io/Portfolio_/images/cv.jpeg';
+                            link.download = 'cv.jpeg';
+                            document.body.appendChild(link);
+                            link.click();
+                            document.body.removeChild(link);
+                          }
+                        </script>
                      </ul>
                   </div>
                </nav>
