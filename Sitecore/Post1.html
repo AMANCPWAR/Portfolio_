@@ -46,19 +46,16 @@
    </a>
    <style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
    <body>
-    <canvas id="canvas" width="500" height="500"></canvas>
-    <div id="colorlib-page">
-       <div class="container-wrap">
-          <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a> 
-          <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
-             <div class="text-center">
-                <div class="author-img" style="background-image: url(images/aaaa.jpg);"></div>
-                <h1 id="colorlib-logo"><a href="https://amancpwar.github.io/Portfolio_/">Aman Cpwar</a></h1>
-                <p><strong>Software Developer</strong></p>
-             </div>
-          </aside>
-       </div>
-    </div>
+
+      <div id="colorlib-page">
+         <div class="container-wrap">
+            <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a> 
+            <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+               <div class="text-center">
+                  <div class="author-img" style="background-image: url(images/aaaa.jpg);"></div>
+                  <h1 id="colorlib-logo"><a href="https://amancpwar.github.io/Portfolio_/">Aman Cpwar</a></h1>
+                  <p><strong>Software Developer</strong></p>
+               </div>
             </aside>
             <div id="colorlib-main">
                <section class="colorlib-about" data-section="about">
@@ -186,23 +183,6 @@
       <!-- MAIN JS -->
       <script src="js/main.js"></script>
        <!--canvas js--->
-      <script src="js/canvas.js"></script>
-
-      <script>
-      // Get the canvas element
-      var canvas = document.getElementById('canvas');
-      var ctx = canvas.getContext('2d');
-    
-      // Create a new Image object
-      var img = new Image();
-      
-      // Set the source of the image (adjust the path as necessary)
-      img.src = 'images/aaaa.jpg';
-      
-      // Once the image is loaded, draw it on the canvas
-      img.onload = function() {
-          ctx.drawImage(img, 0, 0, canvas.width, canvas.height); // Draw the image on canvas
-      };
-    </script>
+           <script src="js/canvas.js"></script>
    </body>
 </html>
