@@ -1614,3 +1614,41 @@ align-items: stretch;}
   cursor: pointer;
   border-radius: 16px;
 }
+
+#signature {
+  background-color: #f9f9f9;
+  padding: 30px;
+  text-align: center;
+  margin-top: 50px;
+  border-top: 2px solid #ccc;
+}
+
+.signature-content p {
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+  color: #333;
+}
+
+.signature-content .company-name {
+  font-weight: bold;
+  color: #0a5b8c;
+}
+
+.signature-logos {
+  margin-top: 15px;
+}
+
+.signature-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.sitecore-logo {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
